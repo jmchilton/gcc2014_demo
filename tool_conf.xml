@@ -1,0 +1,8 @@
+<toolbox tool_path="${tool_conf_dir}">
+  <section id="demotools" name="Demo Tools">
+    <tool file="tools/fastq_groomer.xml" />
+    <tool file="tools/bowtie2.xml" />
+    <tool file="tools/sam_merge.xml" />
+    <tool file="tools/samtools_flagstat.xml" />
+  </section>
+</toolbox>
